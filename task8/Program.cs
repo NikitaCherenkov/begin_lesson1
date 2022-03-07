@@ -8,4 +8,8 @@ while (i < N - 3) {
     i = i + 2;
     Console.Write($" {i},");
 }
-Console.Write($" {i + 2}");
+if (N > 1) {
+    Console.Write($" {i + 2}");
+} else {
+    Console.Write(" null");
+}
